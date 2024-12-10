@@ -17,7 +17,7 @@ const LoginForm = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const baseUrl = "http://api:3000/api";
+    const baseUrl = "http://localhost:3000/api";
     const loginUrl = `${baseUrl}/auth/login`;
     const payload = {
       email,

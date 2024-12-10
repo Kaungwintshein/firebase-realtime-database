@@ -22,7 +22,7 @@ const RegisterForm = () => {
       alert("Passwords do not match");
       return;
     }
-    const baseUrl = "http://api:3000/api";
+    const baseUrl = "http://localhost:3000/api";
     const registerUrl = `${baseUrl}/auth/register`;
     const payload = {
       email,

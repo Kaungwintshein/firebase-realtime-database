@@ -16,7 +16,7 @@ async function bootstrap() {
   );
   app.use(
     cors({
-      origin: '*',
+      origin: '*', // Allow requests from all origins
       credentials: true,
     }),
   );
