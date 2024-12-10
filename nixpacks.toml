@@ -1,7 +1,5 @@
 [api]
-plan = "docker"
 dockerfile = "api/Dockerfile"
 
 [client]
-plan = "docker"
 dockerfile = "client/Dockerfile"
