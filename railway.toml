@@ -1,0 +1,19 @@
+[api]
+builder = "DOCKERFILE"
+dockerfilePath = "./api/Dockerfile"
+watchPatterns = [
+    "api/package.json",
+    "api/src/**",
+    "railway.toml",
+    "api/Dockerfile"
+]
+
+[client]
+builder = "DOCKERFILE"
+dockerfilePath = "./client/Dockerfile"
+watchPatterns = [
+    "client/package.json",
+    "client/pages/**",
+    "railway.toml",
+    "client/Dockerfile"
+]
