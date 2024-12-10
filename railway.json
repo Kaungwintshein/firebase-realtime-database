@@ -1,0 +1,16 @@
+{
+  "services": [
+    {
+      "name": "api",
+      "build": {
+        "dockerfile": "api/Dockerfile"
+      }
+    },
+    {
+      "name": "client",
+      "build": {
+        "dockerfile": "client/Dockerfile"
+      }
+    }
+  ]
+}
