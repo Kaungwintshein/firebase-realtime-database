@@ -1,5 +1,0 @@
-[api]
-dockerfile = "api/Dockerfile"
-
-[client]
-dockerfile = "client/Dockerfile"
