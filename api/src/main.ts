@@ -23,6 +23,9 @@ async function bootstrap() {
   app.use(passport.initialize());
   app.use(passport.session());
 
+  // Add global prefix for API routes
+  app.setGlobalPrefix('api');
+
   const config = new DocumentBuilder()
     .setTitle('API Documentation')
     .setDescription('The API description')
